@@ -446,15 +446,6 @@ def bot_help(update, context):
 
 if SET_BOT_COMMANDS:
     botcmds = [
-        (f'{BotCommands.MirrorCommand}', 'Mirror'),
-        (f'{BotCommands.ZipMirrorCommand}','Mirror and upload as zip'),
-        (f'{BotCommands.UnzipMirrorCommand}','Mirror and extract files'),
-        (f'{BotCommands.QbMirrorCommand}','Mirror torrent using qBittorrent'),
-        (f'{BotCommands.QbZipMirrorCommand}','Mirror torrent and upload as zip using qb'),
-        (f'{BotCommands.QbUnzipMirrorCommand}','Mirror torrent and extract files using qb'),
-        (f'{BotCommands.WatchCommand}','Mirror yt-dlp supported link'),
-        (f'{BotCommands.ZipWatchCommand}','Mirror yt-dlp supported link as zip'),
-        (f'{BotCommands.CloneCommand}','Copy file/folder to Drive'),
         (f'{BotCommands.LeechCommand}','Leech'),
         (f'{BotCommands.ZipLeechCommand}','Leech and upload as zip'),
         (f'{BotCommands.UnzipLeechCommand}','Leech and extract files'),
@@ -469,11 +460,8 @@ if SET_BOT_COMMANDS:
         (f'{BotCommands.RemnameCommand}','Remove Specific words from filename'),
         (f'{BotCommands.UserLogCommand}','Set Dump Channel for Leech Files'),
         (f'{BotCommands.ScrapeCommand}','Scrape Links from Website'),
-        (f'{BotCommands.CountCommand}','Count file/folder of Drive'),
-        (f'{BotCommands.DeleteCommand}','Delete file/folder from Drive'),
         (f'{BotCommands.CancelMirror}','Cancel a task'),
         (f'{BotCommands.CancelAllCommand}','Cancel all downloading tasks'),
-        (f'{BotCommands.ListCommand}','Search in Drive'),
         (f'{BotCommands.SearchCommand}','Search in Torrent'),
         (f'{BotCommands.LeechSetCommand}','Leech settings'),
         (f'{BotCommands.SetThumbCommand}','Set thumbnail'),
