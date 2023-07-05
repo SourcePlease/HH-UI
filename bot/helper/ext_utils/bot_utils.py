@@ -162,13 +162,13 @@ def get_progress_bar_string(status):
     cFull = p // 8
     p_str = FINISHED_PROGRESS_STR * cFull
     p_str += UN_FINISHED_PROGRESS_STR  * (12 - cFull)
-    p_str = f"{p_str}"
+    p_str = f"[{p_str}]"
     return p_str
 
 
 def get_readable_message():
     with download_dict_lock:
-        msg = f'<a href="https://t.me/h2dts"><b>☠️Source Please🔞</b></a>\n\n'
+        msg = f'\n<a href="https://t.me/h2dts"><b>🇯🇵Source Please🇯🇵</b></a>\n'
         if STATUS_LIMIT is not None:
             tasks = len(download_dict)
             global pages
